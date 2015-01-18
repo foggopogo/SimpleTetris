@@ -242,7 +242,6 @@ void Block::rotateJ(bool clockwise) {
         }
 }
 
-
 void Block::rotateL(bool clockwise) {
 	Cell ** board = b->getTheBoard();
         if (clockwise) {
