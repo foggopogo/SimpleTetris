@@ -127,6 +127,7 @@ void Board::blockScoreUpdate(int blockLevel) {
 int Board::getLevel() {
 	return level;
 }
+
 void Board::setLevel(int level) {
 	if (level>=0 && level<=3) {
 		this->level=level;
@@ -211,16 +212,6 @@ ostream &operator<<(ostream &out, const Board &b) {
 	return out;
 }
 	
-
-
-
-
-
-
-
-
-
-
 
 
  
